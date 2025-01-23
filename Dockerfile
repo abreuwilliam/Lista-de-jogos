@@ -3,7 +3,7 @@ FROM openjdk:21-jdk-slim AS build
 
 
 # Instalar Maven
-#RUN apt-get update && apt-get install -y maven
+RUN apt-get update && apt-get install -y maven
 
 
 # Define o diretório de trabalho dentro do container
