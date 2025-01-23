@@ -1,5 +1,5 @@
 # Etapa 1: Imagem base para compilação
-FROM maven:3.9.5-eclipse-temurin-17 AS build
+FROM openjdk:21-jdk-slim AS build
 
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
