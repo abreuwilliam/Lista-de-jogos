@@ -1,6 +1,11 @@
 # Etapa 1: Imagem base para compilação
 FROM openjdk:21-jdk-slim AS build
 
+
+# Instalar Maven
+#RUN apt-get update && apt-get install -y maven
+
+
 # Define o diretório de trabalho dentro do container
 WORKDIR /app
 
@@ -15,7 +20,7 @@ COPY src ./src
 RUN mvn package -DskipTests
 
 # Etapa 2: Imagem para execução
-FROM eclipse-temurin:17-jdk
+FROM openjdk:21-jdk-slim
 
 # Define o diretório de trabalho para a aplicação
 WORKDIR /app
