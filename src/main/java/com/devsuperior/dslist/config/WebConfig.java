@@ -22,7 +22,7 @@ import jakarta.servlet.http.HttpServletResponse;
 							.allowedOrigins(
 									"http://localhost:5173",
 									"http://localhost:3000",
-									"https://lista-de-jogos-intensivao-nelio-production.up.railway.app"
+									"https://lista-de-jogos-intensivao-nelio-production.up.railway.app","https://beautiful-raindrop-8b81ce.netlify.app"
 							)
 							.allowedHeaders("*")
 							.exposedHeaders("Content-Type", "Authorization")
