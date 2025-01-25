@@ -43,4 +43,5 @@ public class GameListController {
 	public void move(@PathVariable Long listId, @RequestBody ReplacementDTO body) {
 		 gameListService.move(listId, body.getSourceIndex(), body.getDestinationIndex());
 		
-}}
+}
+}
