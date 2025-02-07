@@ -8,7 +8,7 @@ Este projeto foi criado com o objetivo de aprofundar meus conhecimentos em ORM (
 📌 Principais Aprendizados
 - ORM e Relacionamentos: Implementação de um relacionamento muitos-para-muitos com uma Tabela para Posicionamento do Jogos.
 - Docker: Containerização do projeto para facilitar a configuração e deploy.
-- Hospedagem na Nuvem:** Primeira experiência em hospedar o back-end e o banco de dados PostgreSQL na nuvem.
+- Hospedagem na Nuvem: Primeira experiência em hospedar o back-end e o banco de dados PostgreSQL na nuvem.
 
 🛠️ Tecnologias Utilizadas
 - Back-end: Java Spring Boot
